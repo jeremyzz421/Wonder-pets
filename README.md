@@ -1,1 +1,8 @@
-# Wonder-pets
+SortiTech:Smart Waste Sorting and Collection System
+
+This Java console based application should enable users to be more mindful about the surroundings by demonstrating the functionality of a simple waste management system. The program enables the user to classify waste with three categories; biodegradable, non-biodegradable, and recyclable. This will educate people on proper separation of wastes and the users are taught how each type of waste is to be disposed.
+
+The system also has the capability of handling the collection schedules and one can set or change the time in which the waste is supposed to be collected in their household or community. It gives users an option of the day or hour of preferred collection and updates it whenever it is necessary. The application maintains a definite record of the cumulative amount of waste to each category and it updates this record whenever the new waste is added. It also consolidates the waste it has accumulated such that users can easily check the amount of waste they have accumulated over the years.
+
+Besides, the program comes with a simple and easy to use menu allowing users to navigate through the menu with ease. It takes the user through the steps and thus the system is easy even to the ones who are still learning about waste management. To encourage proper management of waste, the application will also verify whether a waste category is approaching capacity limit. When a bin is nearly full or full, the system will issue a warning message to inform a user to do something, as either to schedule a collection or minimize further production in the form of waste. This will stop overflow and promote good environmental practices.
+
