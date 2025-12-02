@@ -1,4 +1,6 @@
-SortiTech:Smart Waste Sorting and Collection System
+_**SortiTech:Smart Waste Sorting and Collection System**_
+
+**DESCRRIPTION/OVERVIEW**
 
 This Java console based application should enable users to be more mindful about the surroundings by demonstrating the functionality of a simple waste management system. The program enables the user to classify waste with three categories; biodegradable, non-biodegradable, and recyclable. This will educate people on proper separation of wastes and the users are taught how each type of waste is to be disposed.
 
@@ -6,23 +8,28 @@ The system also has the capability of handling the collection schedules and one 
 
 Besides, the program comes with a simple and easy to use menu allowing users to navigate through the menu with ease. It takes the user through the steps and thus the system is easy even to the ones who are still learning about waste management. To encourage proper management of waste, the application will also verify whether a waste category is approaching capacity limit. When a bin is nearly full or full, the system will issue a warning message to inform a user to do something, as either to schedule a collection or minimize further production in the form of waste. This will stop overflow and promote good environmental practices.
 
-OOP Concepts applied
+**OOP Concepts applied**
 
-Abstraction The WasteRecord group conceals hard things. It hides facts of waste types out of view. You are looking at easy stuff, not difficult stuff.It just gives the bare minimum of any record, i.e.: it gives the date and the amount subtracted over, plus the abstract displayRecord() method. All the individual types of waste are then able to determine how to present their respective information without the program having to be aware of the details.
+`Abstraction` The WasteRecord group conceals hard things. It hides facts of waste types out of view. You are looking at easy stuff, not difficult stuff.It just gives the bare minimum of any record, i.e.: it gives the date and the amount subtracted over, plus the abstract displayRecord() method. All the individual types of waste are then able to determine how to present their respective information without the program having to be aware of the details.
 
-Inheritance WasteRecord is the predecessor of PlasticRecord.  WasteRecord provides it with all of its fields.  It has date & amountReduced.  It gets any base methods too.  PlasticRecord possesses everything that base class provides...It avoids the repetition of code and simplifies the task of creating new waste-record types in the future.
+`Inheritance` WasteRecord is the predecessor of PlasticRecord.  WasteRecord provides it with all of its fields.  It has date & amountReduced.  It gets any base methods too.  PlasticRecord possesses everything that base class provides...It avoids the repetition of code and simplifies the task of creating new waste-record types in the future.
 
-Polymorphism The displayRecord() method is defined in the abstract class, but implemented in different ways in each of the subclasses. It is a form of runtime polymorphism: the program can work with different record types using the WasteRecord reference, but on executing the displayRecord() method, it executes the one that is specific to a subclass (such as PlasticRecord).
+`Polymorphism` The displayRecord() method is defined in the abstract class, but implemented in different ways in each of the subclasses. It is a form of runtime polymorphism: the program can work with different record types using the WasteRecord reference, but on executing the displayRecord() method, it executes the one that is specific to a subclass (such as PlasticRecord).
 
-Encapsulation Both the date and the amountReduced are not directly exposed but through getters and setters. This safeguards the inner values of the object and makes sure that they can be altered only in a regulated, foreseeable manner.
+`Encapsulation` Both the date and the amountReduced are not directly exposed but through getters and setters. This safeguards the inner values of the object and makes sure that they can be altered only in a regulated, foreseeable manner.
 
-Program Structure
+### Program Structure
+
 Main Class: SortiTechSystem
 This is the main controller of the entire application. It does the following functions:
+
 • shows program introduction and help section.
+
 • Introduction of user menu to navigate.
+
 • Manages the addition, deletion, searching, sorting and displaying of waste records.
 Stores store all the plastic wastes in an array of PlasticRecord[].
+
 •	Processes user input and verifies it.
 
 The program flow is done using different menus.
@@ -34,8 +41,11 @@ The upper limit is also established to 100 records in the class and records the 
 Abstract Class: WasteRecord
 This is the type of category that this class provides the model of any kind of waste records.
 It contains:
+
 •	The date of the record
+
 • The amount of waste reduced
+
 •	Something to set values.
 
 • Manipulators and lockers to regulate data entry.
@@ -69,20 +79,27 @@ The show takes the user through various strata of menus:
 1.	Introduction Screen
 Shows the title and the description of the display and developer credits.
 2.	Main Menu
+
 •	Begin
+
 •	Help
+
 •	Exit
+
 3.	Tracker Menu
 House the house of all important system functions, viz.,
 •	Add Record
 
 •	Record Delete Search Record
+
 •Records sorting
- •	Display All Records 
+
+•	Display All Records 
+
 •	Back to Main Menu 
 This design makes this system very simple to use and run even by users who are not very experienced.
 
-How to Run the Program
+### How to Run the Program
 1. Accessing the Main Menu
 Once the program is launched, the initial screen you will be greeted with is the Main Menu which will serve as the primary navigation control in the entire system. It consists of three options:
 Start
@@ -146,6 +163,18 @@ You are done with entering data and want to exit the system in a decent way.
 To completely close the SortiTech System, go back to the Main Menu and choose Exit. This will not allow the program to execute and close the console window at once.
 It will have Exits on the Main Menu that will make sure that:
 The program gets a safe termination. There are no unfinished functions. You move on to your desktop or command prompt without failures.
+
+### Sample output
+
+
+
+
+
+
+
+
+
+
 
 
 
