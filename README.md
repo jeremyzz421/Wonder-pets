@@ -7,9 +7,13 @@ The system also has the capability of handling the collection schedules and one 
 Besides, the program comes with a simple and easy to use menu allowing users to navigate through the menu with ease. It takes the user through the steps and thus the system is easy even to the ones who are still learning about waste management. To encourage proper management of waste, the application will also verify whether a waste category is approaching capacity limit. When a bin is nearly full or full, the system will issue a warning message to inform a user to do something, as either to schedule a collection or minimize further production in the form of waste. This will stop overflow and promote good environmental practices.
 
 OOP Concepts applied
+
 Abstraction The WasteRecord group conceals hard things. It hides facts of waste types out of view. You are looking at easy stuff, not difficult stuff.It just gives the bare minimum of any record, i.e.: it gives the date and the amount subtracted over, plus the abstract displayRecord() method. All the individual types of waste are then able to determine how to present their respective information without the program having to be aware of the details.
+
 Inheritance WasteRecord is the predecessor of PlasticRecord.  WasteRecord provides it with all of its fields.  It has date & amountReduced.  It gets any base methods too.  PlasticRecord possesses everything that base class provides...It avoids the repetition of code and simplifies the task of creating new waste-record types in the future.
+
 Polymorphism The displayRecord() method is defined in the abstract class, but implemented in different ways in each of the subclasses. It is a form of runtime polymorphism: the program can work with different record types using the WasteRecord reference, but on executing the displayRecord() method, it executes the one that is specific to a subclass (such as PlasticRecord).
+
 Encapsulation Both the date and the amountReduced are not directly exposed but through getters and setters. This safeguards the inner values of the object and makes sure that they can be altered only in a regulated, foreseeable manner.
 
 Program Structure
