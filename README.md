@@ -176,6 +176,32 @@ The program gets a safe termination. There are no unfinished functions. You move
 
 
 
+### Authors
+
+The members of the group who established and developed this project are Alea Jeremy B., Antonio John Marco H., and Esleta Craig Michael A. All members participated in the research, design, and development of the Java console application.
+
+
+###Acknowledgement
+
+On behalf of our project team, we would like to express our warmest gratitude to our teacher, Juriel Comia, for providing guidance and support throughout this project. We also appreciate our classmates who shared their ideas and offered helpful suggestions. Lastly, we are grateful to our families for their continuous encouragement and support during the completion of this work.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
